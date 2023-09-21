@@ -10,6 +10,7 @@ import Cities from "./components/Cities/Cities";
 import Countries from "./components/Countries/Countries";
 import { useEffect, useState } from "react";
 import City from "./components/City/City";
+import CityForm from "./components/CityForm/CityForm";
 
 const BASE_URL = "http://localhost:9000";
 
@@ -52,6 +53,7 @@ function App() {
             path="countries"
             element={<Countries cities={cities} isLoading={isLoading} />}
           />
+          <Route path="form" element={<CityForm />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
