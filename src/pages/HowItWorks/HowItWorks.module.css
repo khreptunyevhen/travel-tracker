@@ -1,0 +1,9 @@
+.howWorks {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    168deg,
+    rgba(28, 145, 83, 0.5),
+    rgba(28, 211, 157, 0.2)
+  );
+}

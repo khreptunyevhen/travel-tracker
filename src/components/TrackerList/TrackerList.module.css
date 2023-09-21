@@ -1,0 +1,5 @@
+.trackerList {
+  display: grid;
+  grid-template-rows: 20% auto 10%;
+  background-color: #3a4a53;
+}

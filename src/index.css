@@ -1,0 +1,34 @@
+:root {
+  --accent-color: orange;
+  --text-ligth-color: #fff;
+  --text-dark-color: #111;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-ligth-color);
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--text-dark-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}

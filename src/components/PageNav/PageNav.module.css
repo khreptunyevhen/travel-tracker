@@ -1,0 +1,31 @@
+.pageNav {
+  position: relative;
+  max-width: 1200px;
+  padding: 30px 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.pageNav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pageNav ul li {
+  list-style: none;
+}
+
+.pageNav ul li a {
+  color: var(--text-ligth-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pageNav ul li :global(a.active) {
+  color: var(--accent-color);
+}
